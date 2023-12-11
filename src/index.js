@@ -1,8 +1,8 @@
-// Defina o nome e a quantidade de experiência (xp) do herói
+// Definindo o nome e a quantidade de experiência (xp) do herói
 var nomeHeroi = "B de Vingança";
 var xpHeroi = 7500;
 
-// Utilize uma estrutura de decisão para determinar o nível com base na quantidade de xp
+// Utilizando uma estrutura de decisão para determinar o nível com base na quantidade de xp
 var nivelHeroi;
 
 if (xpHeroi < 1000) {
@@ -21,6 +21,6 @@ if (xpHeroi < 1000) {
   nivelHeroi = "Radiante";
 }
 
-// Apresente a mensagem com base no nível do herói
+// Apresentando a mensagem com base no nível do herói
 console.log("O Herói " + nomeHeroi + " está no nível " + nivelHeroi + ".");
 
